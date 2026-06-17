@@ -35,6 +35,8 @@ function Navbar() {
 
       {user && <Link to="/profile">Profile</Link>}
 
+      <Link to="/orders">Order History</Link>
+
       {user && <button onClick={handleLogout}>Logout</button>}
     </nav>
   );
