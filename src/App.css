@@ -118,3 +118,34 @@ button:hover {
   border-radius: 8px;
   font-weight: bold;
 }
+
+.create-product {
+  max-width: 700px;
+  margin: 1.5rem auto 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.create-product form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.create-product input,
+.create-product textarea {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.create-product textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.catalog-controls {
+  margin: 1rem 0 1.5rem;
+}
