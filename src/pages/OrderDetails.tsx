@@ -36,7 +36,10 @@ function OrderDetails() {
       <h3>Order ID: {order.id}</h3>
 
       <p>
-        Date: {order.createdAt.toDate().toLocaleDateString()}
+        Date: {order.createdAt instanceof Date
+            ? order.createdAt.toLocaleDateString()
+            : order.createdAt.toDate().toLocaleDateString()
+            }
       </p>
 
       <p>Total Items: {order.totalItems}</p>

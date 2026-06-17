@@ -17,5 +17,5 @@ export interface Order {
   items: OrderItem[];
   totalPrice: number;
   totalItems: number;
-  createdAt: Timestamp;
+  createdAt: Date | Timestamp;
 }
