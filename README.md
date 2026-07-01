@@ -1,8 +1,10 @@
-# 🛒 Advanced Fake Store App
+# 🛍️ Advanced FakeStore App
 
-A full-stack ecommerce application built with React, TypeScript, Redux Toolkit, Firebase Authentication, and Firestore.
+A full-stack React e-commerce application demonstrating modern frontend development practices using TypeScript, Redux Toolkit, Firebase Authentication, and CI/CD with GitHub Actions.
 
-This project began as a traditional Fake Store implementation and was expanded into a complete ecommerce platform featuring user authentication, product management, shopping cart functionality, and order history management.
+## 🌐 Live Demo
+
+**Live Application:** (https://adv-fakestore-n4fmdjh1u-erin4.vercel.app)
 
 ---
 
