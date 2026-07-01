@@ -212,6 +212,19 @@ Orders were designed to store a snapshot of product information at the time of p
 
 Working with Firebase, Firestore Timestamps, Redux Toolkit, and React together highlighted the importance of strong typing and interface design throughout an application.
 
+## Testing
+
+Run tests locally:
+
+npm run test:run
+
+This project includes:
+
+- Unit tests (Vitest + React Testing Library)
+- Integration testing
+- GitHub Actions CI
+- Automatic deployment to Vercel after successful tests
+
 ### Full-Stack Development Workflow
 
 This project provided hands-on experience with frontend development, backend cloud services, database design, authentication, state management, and deployment-ready architecture within a single application.
